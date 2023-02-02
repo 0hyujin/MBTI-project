@@ -1,0 +1,103 @@
+@font-face {
+    font-family: 'KOTRAHOPE';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/KOTRAHOPE.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cafe24Ssurround';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24Ssurround.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.kotra{
+    font-family: 'KOTRAHOPE';
+}
+
+.cafe{
+    font-family: 'Cafe24Ssurround';
+}
+
+.box{
+    background:white;
+    border-radius:15px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.what{
+    text-align:center;
+    background-color:maroon;
+    color:white;
+    width:210px;;
+    height:30px;
+    margin-left:30px;
+    margin-right:auto;
+    border-radius:15px;
+}
+
+.what_explain{
+    margin-left:35px;
+    line-height:40px;
+    font-size:20px;
+}
+
+.explain{
+    width:210px;;
+    height:30px;
+    margin-left:auto;
+    margin-right:auto;
+    border-radius:15px;
+}
+
+/* .start{
+    text-align:center;
+    background-color:maroon;
+    color:white;
+    width:210px;;
+    height:30px;
+    margin-left:auto;
+    margin-right:auto;
+    border-radius:15px;
+} */
+
+.start {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgba(220, 0, 0, 1);
+    background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+    
+
+    /* background-color:maroon;
+    color:white;
+    width:210px;;
+    margin-left:auto;
+    margin-right:auto;
+    border-radius:15px; */
+    
+}
+
+
+
+.start:hover {
+    background-color: rgba(255, 0, 0, 1);
+}
+
+.start:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6), inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+.love_explain{
+    margin-left:35px;
+    line-height:40px;
+    font-size:20px;
+}
