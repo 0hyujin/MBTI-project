@@ -23,39 +23,23 @@ body{
     font-family: 'Cafe24Ssurround';
 }
 
-.box{
+/* .block{
     background:white;
     border-radius:15px;
     width: 50%;
     height: 500px;
     margin-left: auto;
     margin-right: auto;
-}
+} */
 
-.what{
-    text-align:center;
-    background-color:maroon;
-    color:white;
-    width:210px;;
-    height:30px;
-    margin-left:30px;
-    margin-right:auto;
-    border-radius:15px;
-}
-
-.what_explain{
-    margin-left:35px;
-    line-height:40px;
-    font-size:20px;
-}
 .img-princess{
-    width:300px;
+    width:400px;
     margin-left:auto;
     margin-right:auto;
     
 }
 
-.explain{
+.test_button{
     width:210px;
     height:30px;
     margin-left:auto;
@@ -63,12 +47,10 @@ body{
     border-radius:15px;
 }
 
-
 .start {
     border: 0;
     width:200px;
     height:50px;
-    
     padding: 0 20px;
     font-size: 1rem;
     text-align: center;
@@ -78,10 +60,7 @@ body{
     background-color:#d6abfa;
     background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));
     box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.6);
-
 }
-
-
 
 .start:hover {
     background-color: #d38aff;
@@ -89,9 +68,4 @@ body{
 
 .start:active {
     box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6), inset 2px 2px 3px rgba(0, 0, 0, 0.6);
-}
-.love_explain{
-    margin-left:35px;
-    line-height:40px;
-    font-size:20px;
 }
